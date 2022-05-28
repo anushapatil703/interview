@@ -1,0 +1,96 @@
+1. What is Variable in Python?
+Answer:Variables in Python are reserved memory locations that store values.
+Whenever a variable is created, some space is reserved in the memory. 
+Based on the data type of a variable, the interpreter will allocate memory and decide what should be stored in the memory.
+
+2.What are number data types in Python?
+Answer:Number data types are the one which is used to store numeric values such as:
+    integer
+    long
+    float
+    complex
+
+3.How can String literals be defined?
+Answer:Strings can be created with single,double,triple quotes.
+
+4.What is the difference between .py and .pyc files?
+Answer:The .py files are the python source code files. 
+While the .pyc files contain the bytecode of the python 
+.pyc files are created when the code is imported from some other source. 
+The interpreter converts the source .py files to .pyc files which helps by saving time.
+
+5.What are local variables and global variables in Python?
+Answer:Global Variables:Variables declared outside a function or in global space are called global variables.
+These variables can be accessed by any function in the program.
+Local Variables:Any variable declared inside a function is known as a local variable. 
+This variable is present in the local space and not in the global space.
+
+6.What are functions in Python?
+Answer:A function is a block of code which is executed only when it is called. 
+To define a Python function, the def keyword is used.
+
+7.What is a lambda function?
+Answer:An anonymous function is known as a lambda function. 
+This function can have any number of parameters but, can have just one statement.
+
+8.What does [::-1} do?
+Answer:[::-1] is used to reverse the order of an array or a sequence.
+
+9.What are python iterators?
+Answer:Iterators are objects which can be traversed though or iterated upon.
+
+10.How will you convert a string to all lowercase?
+Answer:To convert a string to lowercase, lower() function can be used.
+
+11. What is the purpose of ‘is’, ‘not’ and ‘in’ operators?
+Answer:Operators are special functions.They take one or more values and produce a corresponding result.
+is: returns true when 2 operands are true  (Example: “a” is ‘a’)
+not: returns the inverse of the boolean value
+in: checks if some element is present in some sequence
+
+12. What is the usage of help() and dir() function in Python?
+Answer:Help() and dir() both functions are accessible from the Python interpreter 
+and used for viewing a consolidated dump of built-in functions. 
+Help() function: The help() function is used to display the documentation string and 
+also facilitates you to see the help related to modules, keywords, attributes, etc.
+Dir() function: The dir() function is used to display the defined symbols.
+
+13. What is a dictionary in Python?
+Answer:The built-in datatypes in Python is called dictionary. 
+It defines one-to-one relationship between keys and values. 
+Dictionaries contain pair of keys and their corresponding values. 
+Dictionaries are indexed by keys.
+
+14.What does len() do?
+Ans: It is used to determine the length of a string, a list, an array, etc.
+
+15.Explain split(), sub(), subn() methods of “re” module in Python.
+Answer: To modify the strings, Python’s “re” module is providing 3 methods.
+    split() – uses a regex pattern to “split” a given string into a list.
+    sub() – finds all substrings where the regex pattern matches and then replace them with a different string
+    subn() – it is similar to sub() and also returns the new string along with the no. of replacements.
+
+16. What are the built-in types of python?
+Answer: Built-in types in Python are as follows –
+    Integers
+    Floating-point
+    Complex numbers
+    Strings
+    Boolean
+    Built-in functions
+
+17.What are Python libraries? Name a few of them.
+Answer:Python libraries are a collection of Python packages. 
+Some of the majorly used python libraries are – Numpy, Pandas, Matplotlib, Scikit-learn and many more.
+
+18. Define encapsulation in Python?
+Answer:Encapsulation means binding the code and the data together. 
+A Python class in an example of encapsulation.
+
+19.What does an object() do?
+Answer:It returns a featureless object that is a base for all classes. 
+Also, it does not take any parameters.
+
+20.How to remove values to a python array?
+Answer: Array elements can be removed using pop() or remove() method. 
+The difference between these two functions is that the former returns the deleted value whereas the latter does not.
